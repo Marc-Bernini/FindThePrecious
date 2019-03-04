@@ -1,0 +1,60 @@
+/* Les images de la section "card" */
+
+div[class="card"] img {
+    opacity: 0.8;
+}
+
+/*  Encart de la section "card" */
+
+h4[class="card-text"] {
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2% 0 2% 0;
+    text-align: center
+}
+
+h4[class="card-text"] span {
+    color: orangered;
+}
+
+/* Titre de la carte*/
+
+h3[class="card-title"] {
+    font-size: 3em;
+    color: white;
+    margin-top: 40%;
+    text-align: center;
+}
+
+/* Sous-titre de la carte*/
+
+p[class="card-text"] {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20%;
+    text-align: center;
+    opacity: 0;
+}
+
+/* Changement au survol*/
+
+.hover:hover p[class="card-text"] {
+    opacity: 1;
+}
+
+.hover:hover h3[class="card-title"] {
+    visibility: hidden;
+}
+
+.hover:hover img[class="card-img-top"] {
+    opacity: 1;
+}
+
+.hover:hover h4[class="card-text"] {
+    visibility: hidden;
+}
+
+footer li {
+    list-style: none;
+}
