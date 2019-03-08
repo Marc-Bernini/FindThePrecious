@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'anironC';
+    src: url(integration_maquette_finale/policesTitres/'anicb___.ttf') format('ttf');
+    src: url(integration_maquette_finale/policesTitres/'anicm___.ttf') format('ttf');
+    src: url(integration_maquette_finale/policesTitres/'anirb___.ttf') format('ttf');
+    src: url(integration_maquette_finale/policesTitres/'anirm___.ttf') format('ttf');
+    font-weight: normal;
+    font-weight: bold;
+    font-style: normal;
+    font-style: bold;
+}
+@font-face {
+    font-family: 'partybusiness';
+    src: url(integration_maquette_finale/policesTextes/'partybusiness.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'tengwarAnnatar';
+    src: url(integration_maquette_finale/symboles/'tngan.ttf') format('ttf');
+    src: url(integration_maquette_finale/symboles/'tngan.ttf') format('ttf');
+    src: url(integration_maquette_finale/symboles/'tngan.ttf') format('ttf');
+    src: url(integration_maquette_finale/symboles/'tngan.ttf') format('ttf');
+    font-weight: normal;
+    font-weight: bold;
+    font-style:normal;
+    font-style: italic;
+}
+/*Fin Polices et symboles*/
+.navbar {
+    background-color:#F2550D;
+}
+.navbar-nav{
+    width:80%;
+}
+ul[class="navbar-nav justify-content-around"] p {
+    font-family: 'anironC', Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size: 0.9em;
+}
+li:first-child  {
+    border-right:1px solid whitesmoke;
+}
+li:nth-child(2) {
+    border-right:1px solid whitesmoke;
+}
+li:nth-child(3) {
+    border-right:1px solid whitesmoke;
+}
+li:nth-child(4) {
+    border-right:1px solid whitesmoke;
+}
+li:nth-child(5) {
+    border-right:1px solid whitesmoke;
+}
+a[class="nav-link text-light"]:hover {
+    text-decoration: underline whitesmoke;
+}
+/*Fin Navbar*/
+div[class="carousel-caption d-none d-md-block"] {
+    margin-bottom: 15%;
+    font-family: 'party business';
+}
+div[class="carousel-caption d-none d-md-block"] h1 {
+   font-size:4em;
+   font-style: normal;
+}
+div[class="carousel-caption d-none d-md-block"] h2 {
+    font-size:2em;
+    color:whitesmoke;
+    text-align:start;
+    margin-left: 12%;
+    font-style: italic;
+ }
+.espace {
+    margin-left: 25%;
+}
+/*Fin Carrousel*/
+section[id="fellows"] {
+    background-image: url(integration_maquette_finale/bg_light.png);
+}
+.symbol {
+    font-family: 'tengwar Annatar';
+    font-size: 2em;
+    color: #FFA200;
+}
+.wanted {
+    font-family: 'anironC';
+    font-size: 1.5em;
+}
+span {
+    font-size: 0.6em;
+}
+/*Fin titre fellows*/
+div[class="justify-content-around"],a {
+    font-family: 'anironC';
+    color: #333 !important;
+}
+.symbol1 {
+    font-family: 'tengwar Annatar';
+    color: #FFA200;
+    font-size: 1.5em;
+    opacity: 0;
+}
+li[class="nav-item"]:hover a {
+    text-decoration: underline #FFA200;
+    color: #FFA200 !important;
+}
+li[class="nav-item"]:hover span {
+    opacity: 1;
+}
+/*Fin section pills*/
+
+/* Les images de la section "card" */
+div[class="card"] img {
+    opacity: 0.8;
+}
+/*  Encart de la section "card" */
+
+h2[class="card-text"] {
+    font-family: 'party business';
+    font-size:2em;
+    color: black;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 2% 0 2% 0;
+    text-align: center
+}
+
+h2[class="card-text"] span {
+    color: orangered;
+    font-size: 1.5em;
+}
+
+/* Titre de la carte*/
+
+h3[class="card-title"] {
+    font-family: 'party business';
+    font-style: italic;
+    font-size: 4em;
+    color: white;
+    margin-top: 30%;
+    text-align: center;
+}
+.dead {
+    font-family: 'party business';
+    color: red;
+    text-align: center;
+    font-size: 3em;
+    margin-top:10%;
+    opacity: 0;
+}
+.gimli {
+    font-family: 'party business';
+    font-size:4em;
+    text-align: center;
+    margin-top: 30%;
+    color: whitesmoke;
+    text-decoration: line-through red;
+    opacity: 0;
+}
+
+/* Sous-titre de la carte*/
+h4[class="card-text"] {
+    font-family: 'party business';
+    color: white;
+    font-size: 3em;
+    margin-top: 5%;
+    text-align: center;
+    opacity: 0;
+}
+p[class="card-text"] {
+    font-family: 'party business';
+    color:white;
+    opacity: 0.8;
+    font-size: 2em;
+}
+/*Background color des cartes*/
+div[class="card-body"] {
+    background-color: black;
+}
+div[class="card"] {
+    border:solid black 5px;
+}
+/* Changement au survol*/
+
+.hover:hover h4[class="card-text"] {
+    opacity: 1;
+}
+
+.hover:hover h3[class="card-title"] {
+    visibility: hidden;
+}
+
+.hover:hover img[class="card-img-top"] {
+    opacity: 1;
+}
+
+.hover:hover h2[class="card-text"] {
+    visibility: hidden;
+}
+.hover:hover .gimli {
+    opacity: 1;
+}
+.hover:hover .dead {
+    opacity: 1;
+}
+/*Media Queries*/
+@media screen and (max-width:414px) {
+    li:first-child  {
+        border-right:none;
+    }
+    li:nth-child(2) {
+        border-right:none;
+    }
+    li:nth-child(3) {
+        border-right:none;
+    }
+    li:nth-child(4) {
+        border-right:none;
+    }
+    li:nth-child(5) {
+        border-right:none;
+    }  
+} 
