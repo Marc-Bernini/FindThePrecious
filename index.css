@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'anironC';
-    src: url(integration_maquette_finale/policesTitres/'anicb___.ttf') format('ttf');
-    src: url(integration_maquette_finale/policesTitres/'anicm___.ttf') format('ttf');
-    src: url(integration_maquette_finale/policesTitres/'anirb___.ttf') format('ttf');
-    src: url(integration_maquette_finale/policesTitres/'anirm___.ttf') format('ttf');
-    src: url(integration_maquette_finale/policesTitres/'anirm___.eot') format('eot');
-    src: url(integration_maquette_finale/policesTitres/'anirm___.woff') format('woff');
-    src: url(integration_maquette_finale/policesTitres/'anirm___.truetype') format('truetype');
-    src: url(integration_maquette_finale/policesTitres/'anirm___.svg') format('svg');
+    src: url(integration_maquette_finale/'anicb___.ttf') format('ttf');
+    src: url(integration_maquette_finale/'anicm___.ttf') format('ttf');
+    src: url(integration_maquette_finale/'anirb___.ttf') format('ttf');
+    src: url(integration_maquette_finale/'anirm___.ttf') format('ttf');
+    src: url(integration_maquette_finale/'anirm___.eot') format('eot');
+    src: url(integration_maquette_finale/'anirm___.woff') format('woff');
+    src: url(integration_maquette_finale/'anirm___.truetype') format('truetype');
+    src: url(integration_maquette_finale/'anirm___.svg') format('svg');
     font-weight: normal;
     font-weight: bold;
     font-style: normal;
@@ -15,21 +15,21 @@
 }
 @font-face {
     font-family: 'partybusiness';
-    src: url(integration_maquette_finale/policesTextes/'partybusiness.ttf') format('ttf');
-    src: url(integration_maquette_finale/policesTitres/'partybusiness.eot') format('eot');
-    src: url(integration_maquette_finale/policesTitres/'partybusiness.woff') format('woff');
-    src: url(integration_maquette_finale/policesTitres/'partybusiness.truetype') format('truetype');
-    src: url(integration_maquette_finale/policesTitres/'partybusiness.svg') format('svg');
+    src: url(integration_maquette_finale/'partybusiness.ttf') format('ttf');
+    src: url(integration_maquette_finale/'partybusiness.eot') format('eot');
+    src: url(integration_maquette_finale/'partybusiness.woff') format('woff');
+    src: url(integration_maquette_finale/'partybusiness.truetype') format('truetype');
+    src: url(integration_maquette_finale/'partybusiness.svg') format('svg');
 }
 @font-face {
     font-family: 'tengwarAnnatar';
-    src: url(integration_maquette_finale/symboles/'tngan.ttf') format('ttf');
-    src: url(integration_maquette_finale/symboles/'tngan.ttf') format('ttf');
-    src: url(integration_maquette_finale/symboles/'tngan.ttf') format('ttf');
-    src: url(integration_maquette_finale/symboles/'tngan.ttf') format('ttf');
-    src: url(integration_maquette_finale/policesTitres/'tngan.woff') format('woff');
-    src: url(integration_maquette_finale/policesTitres/'tngan.truetype') format('truetype');
-    src: url(integration_maquette_finale/policesTitres/'tngan.svg') format('svg');
+    src: url(integration_maquette_finale/'tngan.ttf') format('ttf');
+    src: url(integration_maquette_finale/'tngan.ttf') format('ttf');
+    src: url(integration_maquette_finale/'tngan.ttf') format('ttf');
+    src: url(integration_maquette_finale/'tngan.ttf') format('ttf');
+    src: url(integration_maquette_finale/'tngan.woff') format('woff');
+    src: url(integration_maquette_finale/'tngan.truetype') format('truetype');
+    src: url(integration_maquette_finale/'tngan.svg') format('svg');
     font-weight: normal;
     font-weight: bold;
     font-style:normal;
