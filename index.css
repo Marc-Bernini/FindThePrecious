@@ -1,35 +1,18 @@
 @font-face {
     font-family: "AnironC";
-    src: url(integration_maquette_finale/'anicb__.ttf') format('ttf');
-    src: url(integration_maquette_finale/'anicm__.ttf') format('ttf');
-    src: url(integration_maquette_finale/'anirb__.ttf') format('ttf');
-    src: url(integration_maquette_finale/'anirm__.ttf') format('ttf');
-    src: url(integration_maquette_finale/'anirm__.eot') format('eot');
-    src: url(integration_maquette_finale/'anirm__.woff') format('woff');
-    src: url(integration_maquette_finale/'anirm__.truetype') format('truetype');
-    src: url(integration_maquette_finale/'anirm__.svg') format('svg');
+    src: url(integration_maquette_finale/'anicb___.ttf');
+    src: url(integration_maquette_finale/'anicm___.ttf');
     font-weight: normal;
     font-weight: bold;
-    font-style: normal;
-    font-style: bold;
 }
 @font-face {
     font-family: "Party Business";
-    src: url(integration_maquette_finale/'partybusiness.ttf') format('ttf');
-    src: url(integration_maquette_finale/'partybusiness.eot') format('eot');
-    src: url(integration_maquette_finale/'partybusiness.woff') format('woff');
-    src: url(integration_maquette_finale/'partybusiness.truetype') format('truetype');
-    src: url(integration_maquette_finale/'partybusiness.svg') format('svg');
+    src: url(integration_maquette_finale/'partybusiness.ttf');
+    font-weight: normal;
 }
 @font-face {
     font-family: "Tengwar Annatar";
-    src: url(integration_maquette_finale/'tngan.ttf') format('ttf');
-    src: url(integration_maquette_finale/'tngan.ttf') format('ttf');
-    src: url(integration_maquette_finale/'tngan.ttf') format('ttf');
-    src: url(integration_maquette_finale/'tngan.ttf') format('ttf');
-    src: url(integration_maquette_finale/'tngan.woff') format('woff');
-    src: url(integration_maquette_finale/'tngan.truetype') format('truetype');
-    src: url(integration_maquette_finale/'tngan.svg') format('svg');
+    src: url(integration_maquette_finale/'tngan.ttf');
     font-weight: normal;
     font-weight: bold;
     font-style:normal;
