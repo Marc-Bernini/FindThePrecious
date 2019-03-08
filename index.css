@@ -1,17 +1,17 @@
 @font-face {
-    font-family: "AnironC";
+    font-family: "aniron";
     src: url(integration_maquette_finale/'anicb___.ttf');
     src: url(integration_maquette_finale/'anicm___.ttf');
     font-weight: normal;
     font-weight: bold;
 }
 @font-face {
-    font-family: "Party Business";
+    font-family: "texte";
     src: url(integration_maquette_finale/'partybusiness.ttf');
     font-weight: normal;
 }
 @font-face {
-    font-family: "Tengwar Annatar";
+    font-family: "symbol";
     src: url(integration_maquette_finale/'tngan.ttf');
     font-weight: normal;
     font-weight: bold;
@@ -26,7 +26,7 @@
     width:80%;
 }
 ul[class="navbar-nav justify-content-around"] p {
-    font-family: "AnironC", Arial, Helvetica, sans-serif;
+    font-family: "aniron", Arial, Helvetica, sans-serif;
     font-style:normal;
     font-size: 0.9em;
 }
@@ -51,7 +51,7 @@ a[class="nav-link text-light"]:hover {
 /*Fin Navbar*/
 div[class="carousel-caption d-none d-md-block"] {
     margin-bottom: 15%;
-    font-family: "Party Business";
+    font-family: "text";
 }
 div[class="carousel-caption d-none d-md-block"] h1 {
    font-size:4em;
@@ -72,12 +72,12 @@ section[id="fellows"] {
     background-image: url(integration_maquette_finale/bg_light.png);
 }
 .symbol {
-    font-family: "Tengwar Annatar";
+    font-family: "symbol";
     font-size: 2em;
     color: #FFA200;
 }
 .wanted {
-    font-family: "AnironC";
+    font-family: "aniron";
     font-size: 1.5em;
 }
 span {
@@ -85,11 +85,11 @@ span {
 }
 /*Fin titre fellows*/
 div[class="justify-content-around"],a {
-    font-family: "AnironC";
+    font-family: "aniron";
     color: #333 !important;
 }
 .symbol1 {
-    font-family: "Tengwar Annatar";
+    font-family: "symbol";
     color: #FFA200;
     font-size: 1.5em;
     opacity: 0;
@@ -110,7 +110,7 @@ div[class="card"] img {
 /*  Encart de la section "card" */
 
 h2[class="card-text"] {
-    font-family: "Party Business";
+    font-family: "text";
     font-size:2em;
     color: black;
     background-color: white;
@@ -128,7 +128,7 @@ h2[class="card-text"] span {
 /* Titre de la carte*/
 
 h3[class="card-title"] {
-    font-family: "Party Business";
+    font-family: "text";
     font-style: italic;
     font-size: 4em;
     color: white;
@@ -136,7 +136,7 @@ h3[class="card-title"] {
     text-align: center;
 }
 .dead {
-    font-family: "Party Business";
+    font-family: "text";
     color: red;
     text-align: center;
     font-size: 3em;
@@ -144,7 +144,7 @@ h3[class="card-title"] {
     opacity: 0;
 }
 .gimli {
-    font-family: "Party Business";
+    font-family: "text";
     font-size:4em;
     text-align: center;
     margin-top: 30%;
@@ -155,7 +155,7 @@ h3[class="card-title"] {
 
 /* Sous-titre de la carte*/
 h4[class="card-text"] {
-    font-family: "Party Business";
+    font-family: "text";
     color: white;
     font-size: 3em;
     margin-top: 5%;
@@ -163,7 +163,7 @@ h4[class="card-text"] {
     opacity: 0;
 }
 p[class="card-text"] {
-    font-family: "Party Business";
+    font-family: "text";
     color:white;
     opacity: 0.8;
     font-size: 2em;
