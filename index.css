@@ -1,22 +1,19 @@
 @font-face {
     font-family: "aniron";
-    src: url(integration_maquette_finale/'anicb___.ttf');
-    src: url(integration_maquette_finale/'anicm___.ttf');
+    src: url('integration_maquette_finale/anicb___.ttf'), 
+    url('integration_maquette_finale/anicm___.ttf');
     font-weight: normal;
     font-weight: bold;
 }
 @font-face {
-    font-family: "texte";
-    src: url(integration_maquette_finale/'partybusiness.ttf');
+    font-family: "text";
+    src: url('integration_maquette_finale/partybusiness.ttf');
     font-weight: normal;
 }
 @font-face {
     font-family: "symbol";
-    src: url(integration_maquette_finale/'tngan.ttf');
+    src: url('integration_maquette_finale/tngan.ttf');
     font-weight: normal;
-    font-weight: bold;
-    font-style:normal;
-    font-style: italic;
 }
 /*Fin Polices et symboles*/
 .navbar {
@@ -26,8 +23,8 @@
     width:80%;
 }
 ul[class="navbar-nav justify-content-around"] p {
-    font-family: "aniron", Arial, Helvetica, sans-serif;
-    font-style:normal;
+    font-family: "aniron";
+    font-weight:normal;
     font-size: 0.9em;
 }
 li:first-child  {
