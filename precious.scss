@@ -1,8 +1,18 @@
-@mixin ring ($size, $thickness, $color) {
-    width: $size;
-    height: $size;
-    border: $size/8 solid  $color ;
-    box-shadow: $size/32 $size/32 $size/32 darken($color,30);
-    border-radius: 50% ;
-  }
-  
+@mixin ring ($size, $color) {
+  width: $size;
+  height: $size;
+  border: $size/8 solid  $color ;
+  box-shadow: $size/32 $size/32 $size/32 darken($color,30);
+  border-radius: 50% ;
+}
+
+.title {
+  @include ring(200px, #FFDD00);
+}
+
+@for $i from 1 through 5 {
+    .pleaseFindIt-#{$i} {
+         @include ring (40px*$i, #291F13);
+         margin-right: (1px / 100px) * -100% - $i;
+    }
+}
